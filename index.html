@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class Vibes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1>Class Vibes 🌈</h1>
+  <p>Select your current mood anonymously:</p>
+
+  <div class="emoji-buttons">
+    <button onclick="voteMood('happy')">😊</button>
+    <button onclick="voteMood('neutral')">😐</button>
+    <button onclick="voteMood('sad')">😢</button>
+    <button onclick="voteMood('angry')">😠</button>
+    <button onclick="voteMood('excited')">🥳</button>
+  </div>
+
+  <canvas id="moodChart" width="400" height="200"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
